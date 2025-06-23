@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinema Bilet</title>
+    <link rel="stylesheet" href="/Css-Boostrap/bootstrap.min.css    ">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title mb-3">Sinema Bilet Uygulaması</h1>
+        <div class="seatMain">
+            <div class="row">
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            </div>
+            <div class="row">
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+                <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            </div>
+        </div>
+        <div class="movieMain mt-4 w-25 ">
+            <select class="form-select p-2" id="selectMovie">
+                <option value="20">Film 1</option>
+                <option value="25">Film 2</option>
+                <option value="30">Film 3</option>
+            </select>
+        </div>
+        <div class="seatStatusMain mt-4">
+            <div class="row">
+                <div class="emptySeat"><i class="fa-solid fa-couch"></i><span class="ms-2">Boş</span></div>
+                <div class="selectedSeat"><i class="fa-solid fa-couch"></i><span class="ms-2">Seçili</span></div>
+                <div class="fullSeat"><i class="fa-solid fa-couch"></i><span class="ms-2">Dolu</span></div>
+            </div>
+        </div>
+        <div class="resultTextMain mt-2">
+            <p class="text-light"><span id="count">0</span> adet bilet için ödenecek tutar <span id="amount">0</span> TL
+            </p>
+        </div>
+        <div class="buttonMain mt-3">
+            <button class="btn btn-outline-success" id="buyButton" type="button">Satın Al</button>
+            <button class="btn btn-outline-danger" id="clearButton" type="button">Temizle</button>
+        </div>
+        <div class="screen mt-3">
+            <h2>SAHNE</h2>
+        </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/main.js"></script>
+    <script src="/Js-Boostrap/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/dc69674824.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+/* Ana Düzen Css Başlangıç */
+body {
+    background-color: rgb(54, 54, 54);
+}
+
+.container:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Ana Düzen Css Bitiş */
+
+/* Koltuklar Css Başlangıç */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .seat {
+    width: auto;
+}
+
+.seat {
+    font-size: 35px;
+    margin: 6px;
+    color: lightgray;
+}
+
+.seat:not(.full):hover {
+    /* .seat:not(.fullSeat):hover = .fullSeat classı dışında ki elementlerin üzerine gelindiğin de bu özellikler verilir. */
+    scale: 1.5;
+    cursor: pointer;
+}
+
+/* Koltuklar Css Bitiş */
+
+/* Select Css Başlangıç */
+#selectMovie {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.row>.emptySeat,
+.selectedSeat,
+.fullSeat {
+    width: auto;
+    font-size: 16px;
+}
+
+.emptySeat {
+    color: lightgrey;
+}
+
+.selectedSeat {
+    color: yellowgreen;
+}
+
+.fullSeat {
+    color: red;
+}
+
+/* Select Css Bitiş */
+
+/* Result Css Başlangıç */
+#count {
+    color: yellow;
+}
+
+#amount {
+    color: tomato;
+}
+
+/* Result Css Bitiş */
+
+/* Button Css Başlangıç */
+.buttonMain>button {
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Button Css Bitiş */
+
+/* Sahne Css Başlangıç */
+.screen {
+    width: 75%;
+    height: 250px;
+    background-color: lightgrey;
+    border-radius: 10px;
+   box-shadow: lightgrey 0px 1px 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* Sahne Css Bitiş */
+
+/* Koltuk Renkleri */
+.full {
+    color: red;
+}
+.empty {
+    color: lightgrey;
+}
+.selected {
+    color: yellow;
+}
